@@ -278,7 +278,6 @@ a:active {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1578088085518-738839b57548?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat fixed;
   background-size: cover;
 }
-
 #cs-content {
   width: 100%;
   margin-top: 50px;
