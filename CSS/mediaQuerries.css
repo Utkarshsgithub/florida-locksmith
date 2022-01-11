@@ -101,8 +101,8 @@
   #navbar ul li {
     padding: 0;
   }
-  
-  #button{
+
+  #button {
     display: inline-block;
   }
 
@@ -120,7 +120,8 @@
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.3)
       ),
-      url("main-img.jpg") no-repeat fixed;
+      url(https://images.unsplash.com/flagged/photo-1564767609213-c75ee685263a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80)
+        no-repeat fixed;
     background-size: cover;
   }
 
@@ -139,6 +140,19 @@
     width: 500px;
   }
 }
+
+@media only screen and (max-width: 660px) {
+  #main {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url(https://images.unsplash.com/photo-1612034834415-72a023db0303?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+        no-repeat fixed;
+  }
+}
+
 
 /* SERVICES PAGES MEDIA QUERRIES */
 
